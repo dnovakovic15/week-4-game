@@ -22,37 +22,62 @@
         <div class="container">
             <div class="row title">
                 <span class = "title">Star Wars RPG!</span>
+            </div>
+
             <div class="row characters">
-                <div class="col">
-                    <div class="container">
-                        <div class="row name">
-                            <div class="col">
-                                Obi-Wan Kenobi
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <button id="wanKenobi">Wan Kenobi</button>
-                            </div>
-                        </div>
-                        <div class="row hp">
-                            <div class="col">
-                                120
-                            </div>
-                        </div>
+                <div class="col character">
+                    <div class="name">Wan Kenobi</div>
+                    <button id="wanKenobi"></button>
+                    <div class="hp">120</div>
+                </div>
+                <div class="col character">
+                    <div class="name">Luke Skywalker
                     </div>
-                
-                    <button id="wanKenobi">Wan Kenobi</button>
-                    <button id="skywalker">1</button>
-                    <button id="darthSidious">2</button>
-                    <button id="darthVader">3</button>
+                    <button id="skyWalker"></button>
+                    <div class="hp">120</div>
+                </div>
+                <div class="col character">
+                    <div class="name">Darth Sidious
+                    </div>
+                    <button id="darthSidious"></button>
+                    <div class=" hp">120</div>
+                </div>
+                <div class="col character">
+                    <div class="name">Darth Vader
+                    </div>
+                    <button id="darthVader"></button>
+                    <div class="hp">120</div>
                 </div>
             </div>
-        </div>
-        <div class="container">
+
             <div class="row">
-                <button id="attack">attack</button>
+                <span class = "fighter-title">Your Character</span>
             </div>
+
+            <div class="row">
+                <div class="col character fighter">
+                    <div class="name">Luke Skywalker</div>
+                    <button id="skyWalker"></button>
+                    <div class="hp">120</div>
+                </div>
+            </div>
+
+            <div class="row">
+                <span class = "fighter-title">Enemy</span>
+            </div>
+
+            <div class="row">
+                <div class="col character fighter">
+                    <div class="name">Darth Vader</div>
+                    <button id="darthVader"></button>
+                    <div class="hp">120</div>
+                </div>
+            </div>
+
+            <div class="row">
+                <button class="attack">Attack</button>
+            </div>
+
         </div>
 
         <!--Link to local javascript-->
