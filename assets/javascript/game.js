@@ -114,7 +114,9 @@ $(".attack").on("click", function(){
         alert("You have beaten me!");
     }
     else if(level == 3){
-        alert("Give another character a try!");
+        alert("Give another character a try! Hint: 4c756b6520536b7957616c6b65722057696c6c205361766520596f75");
+        $(".attack").prop("disabled", true);
+        $(".attack").css("opacity", "0.2");
     }
     else if(level == 4){
         alert("You have beaten me!");
