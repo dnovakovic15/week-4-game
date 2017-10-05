@@ -8,29 +8,36 @@ button{
     width: 100%;
 }
 
-#wanKenobi{
+.wanKenobi{
     background-image: url("../images/wan_kenobi.jpg");
     background-size: 100% auto;
     vertical-align: bottom;
     color: white;
 }
 
-#skyWalker{
+.skyWalker{
     background-image: url("../images/skywalker.jpeg");
     background-size: 100% auto;
     vertical-align: bottom;
     color: white;
 }
 
-#darthSidious{
+.darthSidious{
     background-image: url("../images/darthSidious.jpg");
     background-size: 100% auto;
     vertical-align: bottom;
     color: white;
 }
 
-#darthVader{
+.darthVader{
     background-image: url("../images/darthVader.jpg");
+    background-size: 100% auto;
+    vertical-align: bottom;
+    color: white;
+}
+
+.nightKing{
+    background-image: url("../images/nightKing.jpg");
     background-size: 100% auto;
     vertical-align: bottom;
     color: white;
@@ -68,20 +75,15 @@ button{
     font-size: 24px;
 }
 
-.fighter-title{
+.fighter-title, .fighter-weapon, .enemy-weapon{
     display: inline-block;
     color: white;
     text-align: center;
     width: 100%;
     font-size: 24px;
     font-weight: bold;
-    margin-bottom: 3%;
-    margin-top: 5%;
-}
-
-#attack-button{
-    color: white;
-    background-color: gray;
+    margin-bottom: 0%;
+    margin-top: 2%;
 }
 
 .name{
@@ -91,6 +93,18 @@ button{
 }
 
 .hp{
+    text-align: center;
+    font-size: 12px;
+    color: black;
+}
+
+.hp-user{
+    text-align: center;
+    font-size: 12px;
+    color: black;
+}
+
+.hp-enemy{
     text-align: center;
     font-size: 12px;
     color: black;
@@ -106,9 +120,14 @@ button{
 }
 
 .attack{
-    margin-top: 10%;
+    margin-top: 5%;
     max-width: 25% !important;
     margin-left: 37%;
     color: white;
     background-color: black;
+}
+
+#dialog-confirm{
+    color: white;
+    font-weight: bold;
 }
